@@ -21,6 +21,7 @@ ul{
 }
 #section{
     background-image: url("./main.jpg");
+    background-size: cover;
     height: 100px;
     width: 100%;
     background-repeat: no-repeat;
@@ -47,6 +48,7 @@ ul{
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -66,34 +68,72 @@ height: 100vh;
 width: 100%;
 background-repeat: no-repeat;
 background-position: center;
+background-size: ;
 justify-content: center;
 line-height: 2rem;
 font-size: 10px;
 }
-#forthline{
-    font-size: 40px;
+.fortline{
     padding-top: 5rem;
+    font-size: 40px;
 }
-#tab1{
-    display:flex;
-    justify-content:space-evenly;
-}
-#sec{
-background-image: url("./4.jpg");
-height: 50px;
-width: 100%;
-background-repeat: no-repeat;
-justify-content: left;
-display: flex;
-background-size: cover;
-}
-#sect4{
-    background-image:url("./4.jpg");
-    height: 100vh;
-    width: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    justify-content:center;
+.main{
     display: flex;
-    color: aliceblue;
+    margin: 5px;
 }
+.box{
+    background-image: url("./4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+    height:500px;
+    width: 100%;
+}
+.box1{
+    background-image: url("./5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: rgb(14, 13, 13);
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+    height:500px;
+    width: 100%;
+    }
+    .link{
+        font-size:20px
+    }
+    .box2{
+        background-image: url("./6.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: black;
+        color: rgb(14, 13, 13);
+        margin: 10px;
+        text-align: center;
+        padding-top: 10px;
+        height:500px;
+        width: 100%;
+        }
+        .box3{
+            background-image: url("./7.jpg");
+            background-color: black;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: black;
+            color: rgb(14, 13, 13);
+            margin: 10px;
+            text-align: center;
+            padding-top: 10px;
+            height:500px;
+            width: 100%;
+            }
